@@ -13,3 +13,6 @@ tasks:
     command: |
       gp sync-await
       yes | npm run wdio
+vscode:
+  extensions:
+    - arcsine.chronicler

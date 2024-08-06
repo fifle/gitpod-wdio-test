@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc:latest
+FROM gitpod/workspace-full-vnc
 
 # Install Node.js
 RUN nvm install 16 && \
