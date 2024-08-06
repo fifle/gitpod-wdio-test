@@ -3,4 +3,7 @@ image:
 
 tasks:
   - init: npm install
-  - command: npm run test
+  - command: chromedriver --port=4444 & npx wdio run wdio.conf.js
+vnc:
+  - name: Preview Tests
+    command: npm run wdio
