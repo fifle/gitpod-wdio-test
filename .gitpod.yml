@@ -5,6 +5,8 @@ ports:
     onOpen: ignore
   - port: 6080
     onOpen: open-preview
+  - port: 9515
+    onOpen: ignore
 tasks:
   - name: install wdio to workspace
     init: |

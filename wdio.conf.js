@@ -5,6 +5,9 @@ export const config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
+    hostname: '0.0.0.0', // This allows connections from Gitpod
+    port: 9515, // ChromeDriver port
+    path: '/',
     //
     // ==================
     // Specify Test Files
