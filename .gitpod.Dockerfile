@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc
+FROM gitpod/workspace-full-vnc:latest
 
 # Install dependencies
 RUN sudo apt-get install -y \
