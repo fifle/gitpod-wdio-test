@@ -1,0 +1,36 @@
+# Ignore specific folders
+/allure-report/
+/allure-results/
+/screenshot/
+/wic/
+/node_modules/
+/.tmp/
+/.idea/
+
+# Ignore specific files
+/*.zip
+/undefined
+/packages
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.tmp
+
+# MS Office generated files #
+# Excel temporary
+~$*.xls*
+# Excel Backup File
+*.xlk
+
+# BrowserStack files
+local.log
+usage.log
+
+# Temporary files for package generation
+.appEnv.tmp
