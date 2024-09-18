@@ -9,3 +9,5 @@ tasks:
   - name: install WebdriverIO to workspace
     init: |
       npm install
+  - name: Open test.e2e.js file
+    command: code test/specs/test.e2e.js --wait
